@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #FFF8ED;
+    margin: 0;
+    font-family: "Almarai", sans-serif;
+}
+section {
+    padding: 0 120px;
+}
+section h2 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 80px;
+}
+section p {
+    font-weight: 700;
+    font-size: 32px;
+}
+/* #region nav*/
+.navigation {
+    display: inline;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 60%;
+}
+.nav__items {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.nav__items a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;   
+    font-size: 20px;
+    margin-top: 17px;
+}
+/* #endregion*/
+.image {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* #region title*/
+.title1 {
+    margin: 0 15%;
+    font-family: "Carattere", cursive;;
+    font-weight: 400;
+    font-size: 180px;    
+}
+.title2 {
+    font-size: 100px;
+    margin-left: 37%;
+    font-weight: 700;
+    margin-top: -60px;
+}
+/* #endregion*/
+/* #region bloks*/
+.bloks {
+    display: block;
+    margin-top: -60px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 110px;
+}
+.top {
+    display: flex;
+}
+.bottom {
+    display: flex;
+    margin-top: -4px;
+}
+.yellow {
+    width: 230px;
+    height: 230px;
+    background-color: #BCB061;
+}
+.blue {
+    width: 230px;
+    height: 230px;
+    background-color: #476DA2;
+}
+.green {
+    width: 230px;
+    height: 230px;
+    background-color: #8F9D51;
+}
+/* #endregion*/
+/* #region describe*/
+.describe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+.describe h1 {
+    font-size: 250px;
+    color: #FFF8ED;
+    font-family: "Amethysta", serif;
+    text-align: center;
+}
+.desc__blok1 {
+    width: 25%;
+    height: 652px;
+    background-color: #7D6E61;
+}
+.desc__blok2 {
+    width: 25%;
+    height: 652px;
+    background-color: #7D6E61;
+}
+.desc__blok3 {
+    width: 25%;
+    height: 652px;
+    background-color: #7D6E61;
+}
+.desc__blok4 {
+    width: 25%;
+    height: 652px;
+    background-color: #7D6E61;
+}
+.desc__blok1:hover {
+    background-image: url(describe/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc__blok2:hover {
+    background-image: url(describe/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc__blok3:hover {
+    background-image: url(describe/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.desc__blok4:hover {
+    background-image: url(describe/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #endregion*/
+/* #region price*/
+.price {
+    display: flex;
+    gap: 67px;
+    justify-content: center;
+    text-align: center;
+}
+.price1 {
+    width: 277px;
+    height: 204px;
+    background-color: #E1D6CC;
+}
+.price2 {
+    width: 277px;
+    height: 204px;
+    background-color: #E1D6CC;
+}
+.price3 {
+    width: 277px;
+    height: 204px;
+    background-color: #E1D6CC;
+}
+.money {
+    color: #932C2C;
+}
+.other__price {
+    margin-left: 25px;
+    margin-bottom: 80px;
+}
+/* #endregion*/
+/* #region training*/
+
+.training {
+    display: flex;
+}
+.training p {
+    width: 50%;
+}
+.training img {
+    margin-left: 139px;
+} 
+.train {
+    margin-bottom: 80px;
+}
+/* #endregion*/
+/* #region reviews*/
+.reviews {
+    display: flex;
+    justify-content: space-between;
+}
+.review_top {
+    display: flex;
+    margin: 25px;
+}
+.reviews h3 {
+    margin-left: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+.reviews p {
+    margin: 18px;
+    padding-top: 10px;
+    width: 82%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.review_des {
+    margin-left: 39px;
+    height: 162px;
+    width: 74%;
+    background-color: #FFF8ED;
+    justify-content: center;
+}
+.review_one {
+    background-color: #7D6E61;
+    height: 392px;
+    width: 30%;
+}
+.review_two {
+    background-color: #7D6E61;
+    height: 392px;
+    width: 30%;
+}
+.review_three {
+    background-color: #7D6E61;
+    height: 392px;
+    width: 30%;
+}
+/* #endregion*/
+footer {
+    margin-top: 80px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
